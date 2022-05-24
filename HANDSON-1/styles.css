@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+}
+
+ol {
+    color: brown;
+}
+
+ul {
+    color: brown;
+    letter-spacing: 4px;
+}
+
+p {
+    color: brown;
+}
+
+a {
+    color: brown;
+}
+
+mark {
+    color: brown;
+}

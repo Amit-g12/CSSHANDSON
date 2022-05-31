@@ -1,0 +1,222 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-weight: bold;
+            font-style: italic;
+            border: 10px groove greenyellow;
+            margin: 0px;
+            background-image: url('https://teamfighttactics.leagueoflegends.com/en-sg/static/backdrop-2ce9de703c2f318fff782cd843141b01.jpg');
+        }
+        
+        #box {
+            display: inline-block;
+        }
+        
+        .box1 {
+            background-color: black;
+            color: white;
+            border: 10px red solid;
+            border-radius: 45px;
+            margin-top: 20px;
+            margin-left: 40px;
+            height: 100px;
+            width: 400px;
+            padding: 50px 10px 20px 20px;
+            display: inline-block;
+        }
+        
+        .box2 {
+            background-color: black;
+            color: white;
+            border: 10px red solid;
+            border-radius: 50px;
+            padding: 30px 0px 0px 80px;
+            margin-top: 35px;
+            margin-left: -100px;
+            height: 50px;
+            width: 400px;
+            display: inline-block;
+        }
+        
+        .box3 {
+            background-color: black;
+            color: white;
+            border: 10px red solid;
+            border-radius: 50px;
+            margin-top: 20px;
+            height: 180px;
+            width: 500px;
+            margin-left: 30px;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        #circle {
+            display: inline-block;
+            background-color: turquoise;
+            border: 10px grey solid;
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+            margin-left: 90px;
+            margin-top: 20%;
+        }
+        
+        .h1 {
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+            padding: 100px 10px 10px 100px;
+            display: inline-block;
+        }
+        
+        .h2 {
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+            padding: 10px 10px 10px 10px;
+            display: inline-block;
+        }
+        
+        .h3 {
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-top: 20px;
+            padding: 10px 10px 40px 80px;
+            display: inline-block;
+        }
+        
+        #form {
+            display: inline-block;
+            border: 10px brown dashed;
+            text-align: center;
+            margin-left: 100px;
+            margin-top: 10%;
+            color: brown;
+            font-style: normal;
+            width: 450;
+            font-size: medium;
+        }
+        
+        #box6 {
+            display: inline-block;
+            align-content: center;
+        }
+        
+        .menu {
+            border: 5px solid red;
+            background-color: black;
+            width: 800px;
+            height: 60px;
+            margin-left: 45%;
+            margin-top: 40px;
+            border-radius: 35px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        #i2 {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .itemsstarters {
+            border: 5px green solid;
+            border-radius: 200px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            color: royalblue;
+            margin-left: 40px;
+            height: 400px;
+            width: 400px;
+        }
+        
+        #i3 {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .itemssouthindian {
+            border: 5px green solid;
+            border-radius: 800px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            color: royalblue;
+            margin-left: 80px;
+            height: 400px;
+            width: 400px;
+        }
+        
+        #i4 {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .itemsindiankitchen {
+            border: 5px green solid;
+            border-radius: 200px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            color: royalblue;
+            margin-left: 100px;
+            margin-bottom: 100px;
+            height: 400px;
+            width: 400px;
+        }
+        
+        #i5 {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .items2salad {
+            border: 5px green solid;
+            border-radius: 200px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            color: royalblue;
+            margin-left: 40px;
+            height: 400px;
+            width: 400px;
+        }
+        
+        #i6 {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .items2bread {
+            border: 5px green solid;
+            border-radius: 200px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            color: royalblue;
+            margin-left: 100px;
+            height: 400px;
+            width: 400px;
+        }
+        
+        #i7 {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .BeveragesandOther {
+            border: 5px green solid;
+            border-radius: 200px;
+            background-color: aquamarine;
+            border-radius: 10px;
+            color: royalblue;
+            margin-left: 80px;
+            height: 400px;
+            width: 400px;
+        }

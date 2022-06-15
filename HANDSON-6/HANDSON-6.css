@@ -1,0 +1,196 @@
+body {
+    background-image: url('shara_desert.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+    line-height: 5vw;
+}
+
+li {
+    float: right;
+    display: block;
+    margin: 0px 20px 0px 20px
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 5vw;
+    height: 5vw;
+}
+
+.navigator img {
+    margin-top: 1vw;
+}
+
+.navigator li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 25% 25% 18% 18%;
+    grid-template-rows: 250px 250px;
+    gap: 3vw;
+}
+
+.item1 {
+    grid-column: 3/4;
+    background-image: url('pic-1.png');
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.item1:hover {
+    transform: translateY(-15px);
+}
+
+
+.item2 {
+    grid-column: 4/5;
+    background-image: url('pic-2.png');
+    background-size: 100% 100%;
+    color: white;
+    transition: 0.5s;
+}
+
+.item2:hover {
+    transform: translateY(-15px);
+}
+
+.item3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url('pic-3.png');
+    background-size: 100% 100%;
+    color: white;
+    transition: 0.5s;
+}
+
+.item3:hover {
+    transform: translateY(-15px);
+}
+
+.item4 {
+    grid-column: 4/5;
+    background-image: url('pic-4.png');
+    grid-row: 2/3;
+    background-size: 100% 100%;
+    color: white;
+    transition: 0.5s;
+}
+
+.item4:hover {
+    transform: translateY(-15px);
+}
+
+.item5 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.head {
+    color: white;
+    margin: 10vw 0 0 5vw;
+}
+
+.head h2 {
+    font-size: 100vw;
+}
+
+.head button {
+    border-radius: 30px ;
+    border: none;
+    padding: 5px 30px;
+    margin: 30px 50px;
+    color: red;
+}
+
+@media screen and (max-width: 856px){
+    .container1 {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 10% 30% 36% 10%;
+        grid-template-rows: 40vw 40vw 40vw 40vw 40vw;
+        gap: 3vw;
+    }
+
+    .item1 {
+        grid-column: 2/4;
+        display: block;
+        grid-row: 2/3;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    .item2 {
+        grid-column: 2/4;
+        grid-row: 3/4;
+        display: block;
+        background-image: url("pic-2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .item3 {
+        grid-column: 2/4;
+        grid-row: 4/5;
+        display: block;
+        background-image: url("pic-3.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .item4 {
+        grid-column: 2/4;
+        background-image: url("pic-4.png");
+        grid-row: 5/6;
+        background-size: 100% 100%;
+    }
+    .item5 {
+        grid-column: 1/5;
+        grid-row: 1/2;
+        display: block;
+    }
+    .head {
+        color: white;
+        margin: 0;
+    }
+    .head h1 {
+        font-size: 7vw;
+    }
+    .head button {
+        border-radius: 10px;
+        border: none;
+        padding: 5px 2vw;
+        margin: 2vw 0px;
+    }
+    .item {
+        transition: 0.5s;
+    }
+    .item:hover {
+        transform: translateY(-12px);
+    }
+}
+
+   
+

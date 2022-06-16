@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+}
+.text{
+    font-size: 50px;
+    font-weight: 500px;
+    width: 80%;
+}
+.happy{
+    margin-left: 25%;
+    background-color: darkorange;
+    margin-top: 2%;
+}
+.inde{
+    margin-left: 3%;
+    background-color: white;
+    margin-bottom: 8%;
+}
+.day{
+    margin-left: 3%;
+    background-color: green;
+    margin-top: 1%;
+}
+.sun{
+    background-image: url('sun.png');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: -18%;
+    margin-left: 80%;
+   animation: sunmoving 15s infinite linear;
+}
+@keyframes sunmoving{
+    100%{transform: translate(-300px);}
+}
+.sky{
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -4%;
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.buildings{
+    background-image: url('city.png');
+    width: 200%;
+    height: 90%;
+    margin-top: -1%;
+    background-repeat: repeat-x;
+    animation: building 20s infinite ease-in;
+}
+@keyframes buildking{
+    100%{transform: translateX(-800px);}
+}
+.road
+{
+    background-image: url('road.jpg');
+    background-repeat: repeat-x;
+    width: 800%;
+    height: 50%;
+    margin-top: -22%;
+    animation: road 10s infinite ease-in;
+}
+@keyframes road{
+    100%{transform: translateX(-8000px);}
+}
+.car{
+    background-image: url('car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:800px;
+    height: 300px;
+    position: fixed;
+    top: 40%;
+    left: 21.5%;
+}
+.tyre1{
+    background-image: url('wheel.png');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 64%;
+    left: 25.8%;
+    animation: tyre 5s infinite ease-in ;
+}
+@keyframes tyre{
+    100%{transform: rotate(360deg);}
+}
+.tyre2{
+    background-image: url('wheel.png');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 64%;
+    left: 63%;
+    animation: tyre 5s infinite ease-in;
+}

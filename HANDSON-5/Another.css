@@ -1,0 +1,122 @@
+html{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:900;
+}
+
+.boxes{
+    width: 200px;
+    height: 1000px;
+    margin-left: 35%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}  
+
+.box1{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width;
+        transition-duration: 2s;
+}
+
+.box1:hover{
+      width: 300px;
+}
+
+.box2{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width 2s, height 2s;
+}
+
+.box2:hover{
+       width: 300px;
+       height: 300px;
+       margin-top: 5%;
+       margin-bottom: 5%;
+}
+    
+.box3{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width 2s;
+        transition-timing-function:linear;
+}
+
+.box3:hover{
+        width: 300px;
+}
+
+.box4{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width 2s;
+        transition-timing-function: ease;
+}
+
+.box4:hover{
+       width: 300px;
+}
+
+.box5{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width 2s;
+        transition-timing-function: ease-in;
+}
+
+.box5:hover{
+        width: 300px;
+}
+
+.box6{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width;
+        transition-duration: 2s;
+        transition-timing-function: ease-out;
+}
+
+.box6:hover{
+        width: 300px;
+}
+
+.box7{
+        width: 130px;
+        height:130px;
+        background-color: greenyellow;
+        transition: width;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+}
+
+.box7:hover{
+        width: 300px;
+}
+
+.back{
+        font-size: xx-larger;
+        font-weight: bolder;
+        text-decoration: underline;
+        margin-left: 40%;
+}
+
+.next{
+        font-size: xx-larger;
+        font-weight: bolder;
+        text-decoration: underline;
+        color: blue;
+        margin-left: 40%;
+}
